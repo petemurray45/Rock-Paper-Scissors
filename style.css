@@ -1,0 +1,102 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url("images/paper.png");
+    font-family: fantasy;
+    
+}
+
+
+.title {
+    font-size: 2rem;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.outcome {
+    font-size: 2rem;
+    
+}
+
+.gameGrid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);
+    
+    gap: 10%;
+}
+
+.choice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.playerChoice,
+.computerChoice {
+    font-size: 4rem;
+}
+
+.playerScore,
+.computerScore {
+    font-size: 4rem;
+}
+
+.choiceText,
+.scoreText {
+    font-size: 25px;
+}
+
+.turnChoices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.option {
+    font-size: 4rem;
+    margin-top: 20%;
+    margin-left: 40%;
+    margin-right: 40%;
+    cursor: pointer;
+    transition: 350ms;
+}
+
+.option:hover {
+    transform: scale(1.8);
+}
+
+.playAgain {
+    margin: 20px;
+}
+
+.playAgainBtn {
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 100px;
+    font-family: fantasy;
+    transition: 400ms;
+    
+}
+
+.playAgainBtn:hover {
+    transform: scale(2.0);
+}
