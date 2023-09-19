@@ -5,7 +5,7 @@ body {
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-image: url(images/paper.png);
+    background-image: url(../images/paper.png);
     font-family: fantasy;
     
 }
